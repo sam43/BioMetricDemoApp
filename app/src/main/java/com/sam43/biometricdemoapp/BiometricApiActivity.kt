@@ -9,6 +9,11 @@ import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_biometric_api.*
 
+/**
+ * Updated documentation from google
+ * link: https://android-developers.googleblog.com/2019/10/one-biometric-api-over-all-android.html
+ * */
+
 class BiometricApiActivity : AppCompatActivity() {
 
     private var authSuccessCount: Int = 0
